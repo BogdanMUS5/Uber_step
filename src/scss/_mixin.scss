@@ -1,0 +1,14 @@
+@mixin large-bloc {
+  background-color: #1eacc7;
+}
+
+@mixin large-text {
+  color: #1ca8c3;
+}
+
+@mixin btn_hove {
+  &:hover {
+    background-image: none;
+    background: #1eacc7;
+  }
+}
